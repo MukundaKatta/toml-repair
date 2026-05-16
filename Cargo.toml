@@ -1,0 +1,15 @@
+[package]
+name = "toml-repair"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.74"
+description = "Repair messy TOML emitted by LLMs: strip markdown fences, normalize line endings, fix common quote-style slips, trim trailing whitespace. Zero deps."
+authors = ["Mukunda Rao Katta <mukunda.vjcs6@gmail.com>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/MukundaKatta/toml-repair"
+homepage = "https://github.com/MukundaKatta/toml-repair"
+documentation = "https://docs.rs/toml-repair"
+readme = "README.md"
+keywords = ["toml", "repair", "llm", "sanitize", "parse"]
+categories = ["text-processing", "parsing"]
+exclude = [".github/*", "target/*"]
